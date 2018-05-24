@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0346688E20B6EE21001347E2 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0346688D20B6EE21001347E2 /* MDConfig.plist */; };
+		0346689820B6EE22001347E2 /* libweixinAnLi2Dylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0346689720B6EE22001347E2 /* libweixinAnLi2Dylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0346689D20B6EE22001347E2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0346689C20B6EE22001347E2 /* JavaScriptCore.framework */; };
+		0346689F20B6EE22001347E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0346689E20B6EE22001347E2 /* Foundation.framework */; };
+		034668A120B6EE22001347E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034668A020B6EE22001347E2 /* UIKit.framework */; };
+		034668A620B6EE22001347E2 /* weixinAnLi2Dylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 034668A520B6EE22001347E2 /* weixinAnLi2Dylib.mm */; };
+		034668A920B6EE22001347E2 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668A820B6EE22001347E2 /* MDConfigManager.h */; };
+		034668AB20B6EE22001347E2 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668AA20B6EE22001347E2 /* MDConfigManager.m */; };
+		034668AD20B6EE22001347E2 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668AC20B6EE22001347E2 /* MDCycriptManager.h */; };
+		034668AF20B6EE22001347E2 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668AE20B6EE22001347E2 /* MDCycriptManager.m */; };
+		034668B120B6EE22001347E2 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668B020B6EE22001347E2 /* MDMethodTrace.h */; };
+		034668B320B6EE22001347E2 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668B220B6EE22001347E2 /* MDMethodTrace.m */; };
+		034668B520B6EE22001347E2 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668B420B6EE22001347E2 /* ANYMethodLog.h */; };
+		034668B720B6EE22001347E2 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668B620B6EE22001347E2 /* ANYMethodLog.m */; };
+		034668BA20B6EE22001347E2 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668B920B6EE22001347E2 /* LLDBTools.h */; };
+		034668BC20B6EE22001347E2 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 034668BB20B6EE22001347E2 /* LLDBTools.mm */; };
+		034668C120B6EE22001347E2 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668C020B6EE22001347E2 /* AntiAntiDebug.m */; };
+		034668C420B6EE22001347E2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 034668C320B6EE22001347E2 /* fishhook.c */; };
+		034668C620B6EE22001347E2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668C520B6EE22001347E2 /* fishhook.h */; };
+		034668C820B6EE22001347E2 /* weixinAnLi2Dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 034668C720B6EE22001347E2 /* weixinAnLi2Dylib.h */; };
+		034668CA20B6EE22001347E2 /* weixinAnLi2Dylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 034668C920B6EE22001347E2 /* weixinAnLi2Dylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0346689920B6EE22001347E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0346687A20B6EE21001347E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0346689620B6EE22001347E2;
+			remoteInfo = weixinAnLi2Dylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0346688220B6EE21001347E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0346689820B6EE22001347E2 /* libweixinAnLi2Dylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0346688520B6EE21001347E2 /* weixinAnLi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinAnLi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0346688820B6EE21001347E2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0346688920B6EE21001347E2 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		0346688B20B6EE21001347E2 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		0346688D20B6EE21001347E2 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		0346689020B6EE21001347E2 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		0346689120B6EE21001347E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0346689720B6EE22001347E2 /* libweixinAnLi2Dylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libweixinAnLi2Dylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0346689C20B6EE22001347E2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0346689E20B6EE22001347E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034668A020B6EE22001347E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		034668A420B6EE22001347E2 /* weixinAnLi2Dylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = weixinAnLi2Dylib.xm; path = Logos/weixinAnLi2Dylib.xm; sourceTree = "<group>"; };
+		034668A520B6EE22001347E2 /* weixinAnLi2Dylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = weixinAnLi2Dylib.mm; path = Logos/weixinAnLi2Dylib.mm; sourceTree = "<group>"; };
+		034668A820B6EE22001347E2 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		034668AA20B6EE22001347E2 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		034668AC20B6EE22001347E2 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		034668AE20B6EE22001347E2 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		034668B020B6EE22001347E2 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		034668B220B6EE22001347E2 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		034668B420B6EE22001347E2 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		034668B620B6EE22001347E2 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		034668B920B6EE22001347E2 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		034668BB20B6EE22001347E2 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		034668BE20B6EE22001347E2 /* weixinAnLi2Dylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weixinAnLi2Dylib-Prefix.pch"; sourceTree = "<group>"; };
+		034668C020B6EE22001347E2 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		034668C320B6EE22001347E2 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		034668C520B6EE22001347E2 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		034668C720B6EE22001347E2 /* weixinAnLi2Dylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weixinAnLi2Dylib.h; sourceTree = "<group>"; };
+		034668C920B6EE22001347E2 /* weixinAnLi2Dylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weixinAnLi2Dylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0346687F20B6EE21001347E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0346689420B6EE22001347E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0346689D20B6EE22001347E2 /* JavaScriptCore.framework in Frameworks */,
+				034668A120B6EE22001347E2 /* UIKit.framework in Frameworks */,
+				0346689F20B6EE22001347E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0346687920B6EE21001347E2 = {
+			isa = PBXGroup;
+			children = (
+				0346688720B6EE21001347E2 /* weixinAnLi2 */,
+				034668A220B6EE22001347E2 /* weixinAnLi2Dylib */,
+				0346689B20B6EE22001347E2 /* Frameworks */,
+				0346688620B6EE21001347E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0346688620B6EE21001347E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0346688520B6EE21001347E2 /* weixinAnLi2.app */,
+				0346689720B6EE22001347E2 /* libweixinAnLi2Dylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0346688720B6EE21001347E2 /* weixinAnLi2 */ = {
+			isa = PBXGroup;
+			children = (
+				0346688820B6EE21001347E2 /* icon.png */,
+				0346688920B6EE21001347E2 /* Target.plist */,
+				0346689120B6EE21001347E2 /* Info.plist */,
+				0346688A20B6EE21001347E2 /* Scripts */,
+				0346688C20B6EE21001347E2 /* Config */,
+				0346688F20B6EE21001347E2 /* TargetApp */,
+			);
+			path = weixinAnLi2;
+			sourceTree = "<group>";
+		};
+		0346688A20B6EE21001347E2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0346688B20B6EE21001347E2 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		0346688C20B6EE21001347E2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0346688D20B6EE21001347E2 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		0346688F20B6EE21001347E2 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				0346689020B6EE21001347E2 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		0346689B20B6EE22001347E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0346689C20B6EE22001347E2 /* JavaScriptCore.framework */,
+				0346689E20B6EE22001347E2 /* Foundation.framework */,
+				034668A020B6EE22001347E2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034668A220B6EE22001347E2 /* weixinAnLi2Dylib */ = {
+			isa = PBXGroup;
+			children = (
+				034668C720B6EE22001347E2 /* weixinAnLi2Dylib.h */,
+				034668C920B6EE22001347E2 /* weixinAnLi2Dylib.m */,
+				034668A320B6EE22001347E2 /* Logos */,
+				034668A720B6EE22001347E2 /* Config */,
+				034668B820B6EE22001347E2 /* Tools */,
+				034668BF20B6EE22001347E2 /* AntiAntiDebug */,
+				034668C220B6EE22001347E2 /* fishhook */,
+				034668BD20B6EE22001347E2 /* Supporting Files */,
+			);
+			path = weixinAnLi2Dylib;
+			sourceTree = "<group>";
+		};
+		034668A320B6EE22001347E2 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				034668A420B6EE22001347E2 /* weixinAnLi2Dylib.xm */,
+				034668A520B6EE22001347E2 /* weixinAnLi2Dylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		034668A720B6EE22001347E2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				034668A820B6EE22001347E2 /* MDConfigManager.h */,
+				034668AA20B6EE22001347E2 /* MDConfigManager.m */,
+				034668AC20B6EE22001347E2 /* MDCycriptManager.h */,
+				034668AE20B6EE22001347E2 /* MDCycriptManager.m */,
+				034668B020B6EE22001347E2 /* MDMethodTrace.h */,
+				034668B220B6EE22001347E2 /* MDMethodTrace.m */,
+				034668B420B6EE22001347E2 /* ANYMethodLog.h */,
+				034668B620B6EE22001347E2 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		034668B820B6EE22001347E2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				034668B920B6EE22001347E2 /* LLDBTools.h */,
+				034668BB20B6EE22001347E2 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		034668BD20B6EE22001347E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034668BE20B6EE22001347E2 /* weixinAnLi2Dylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034668BF20B6EE22001347E2 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				034668C020B6EE22001347E2 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		034668C220B6EE22001347E2 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				034668C320B6EE22001347E2 /* fishhook.c */,
+				034668C520B6EE22001347E2 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0346689520B6EE22001347E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034668AD20B6EE22001347E2 /* MDCycriptManager.h in Headers */,
+				034668B120B6EE22001347E2 /* MDMethodTrace.h in Headers */,
+				034668BA20B6EE22001347E2 /* LLDBTools.h in Headers */,
+				034668A920B6EE22001347E2 /* MDConfigManager.h in Headers */,
+				034668B520B6EE22001347E2 /* ANYMethodLog.h in Headers */,
+				034668C820B6EE22001347E2 /* weixinAnLi2Dylib.h in Headers */,
+				034668C620B6EE22001347E2 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0346688420B6EE21001347E2 /* weixinAnLi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034668D020B6EE22001347E2 /* Build configuration list for PBXNativeTarget "weixinAnLi2" */;
+			buildPhases = (
+				0346687E20B6EE21001347E2 /* Sources */,
+				0346687F20B6EE21001347E2 /* Frameworks */,
+				0346688020B6EE21001347E2 /* ShellScript */,
+				0346688120B6EE21001347E2 /* Resources */,
+				0346688220B6EE21001347E2 /* CopyFiles */,
+				0346688320B6EE21001347E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0346689A20B6EE22001347E2 /* PBXTargetDependency */,
+			);
+			name = weixinAnLi2;
+			productName = weixinAnLi2;
+			productReference = 0346688520B6EE21001347E2 /* weixinAnLi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0346689620B6EE22001347E2 /* weixinAnLi2Dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034668CD20B6EE22001347E2 /* Build configuration list for PBXNativeTarget "weixinAnLi2Dylib" */;
+			buildPhases = (
+				0346689220B6EE22001347E2 /* ShellScript */,
+				0346689320B6EE22001347E2 /* Sources */,
+				0346689420B6EE22001347E2 /* Frameworks */,
+				0346689520B6EE22001347E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixinAnLi2Dylib;
+			productName = weixinAnLi2Dylib;
+			productReference = 0346689720B6EE22001347E2 /* libweixinAnLi2Dylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0346687A20B6EE21001347E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "强宝戈";
+				TargetAttributes = {
+					0346688420B6EE21001347E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0346689620B6EE22001347E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0346687D20B6EE21001347E2 /* Build configuration list for PBXProject "weixinAnLi2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0346687920B6EE21001347E2;
+			productRefGroup = 0346688620B6EE21001347E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0346688420B6EE21001347E2 /* weixinAnLi2 */,
+				0346689620B6EE22001347E2 /* weixinAnLi2Dylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0346688120B6EE21001347E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0346688E20B6EE21001347E2 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0346688020B6EE21001347E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		0346688320B6EE21001347E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		0346689220B6EE22001347E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0346687E20B6EE21001347E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0346689320B6EE22001347E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034668AF20B6EE22001347E2 /* MDCycriptManager.m in Sources */,
+				034668B720B6EE22001347E2 /* ANYMethodLog.m in Sources */,
+				034668AB20B6EE22001347E2 /* MDConfigManager.m in Sources */,
+				034668BC20B6EE22001347E2 /* LLDBTools.mm in Sources */,
+				034668A620B6EE22001347E2 /* weixinAnLi2Dylib.mm in Sources */,
+				034668CA20B6EE22001347E2 /* weixinAnLi2Dylib.m in Sources */,
+				034668B320B6EE22001347E2 /* MDMethodTrace.m in Sources */,
+				034668C420B6EE22001347E2 /* fishhook.c in Sources */,
+				034668C120B6EE22001347E2 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0346689A20B6EE22001347E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0346689620B6EE22001347E2 /* weixinAnLi2Dylib */;
+			targetProxy = 0346689920B6EE22001347E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034668CB20B6EE22001347E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		034668CC20B6EE22001347E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034668CE20B6EE22001347E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinAnLi2Dylib/weixinAnLi2Dylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libweixinAnLi2Dylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"weixinAnLi2Dylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		034668CF20B6EE22001347E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinAnLi2Dylib/weixinAnLi2Dylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libweixinAnLi2Dylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"weixinAnLi2Dylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		034668D120B6EE22001347E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = weixinAnLi2/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = weixin5s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034668D220B6EE22001347E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = weixinAnLi2/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = weixin5s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0346687D20B6EE21001347E2 /* Build configuration list for PBXProject "weixinAnLi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034668CB20B6EE22001347E2 /* Debug */,
+				034668CC20B6EE22001347E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034668CD20B6EE22001347E2 /* Build configuration list for PBXNativeTarget "weixinAnLi2Dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034668CE20B6EE22001347E2 /* Debug */,
+				034668CF20B6EE22001347E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034668D020B6EE22001347E2 /* Build configuration list for PBXNativeTarget "weixinAnLi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034668D120B6EE22001347E2 /* Debug */,
+				034668D220B6EE22001347E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0346687A20B6EE21001347E2 /* Project object */;
+}
